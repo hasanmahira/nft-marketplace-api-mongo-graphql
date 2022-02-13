@@ -10,7 +10,7 @@ gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
 gem 'mongoid', '~> 7.0.13'
 
 #Use graphql
-gem 'graphql', '1.9.18'
+gem 'graphql', '1.11.6'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server
