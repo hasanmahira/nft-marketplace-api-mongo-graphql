@@ -17,14 +17,16 @@ class User
 
   before_save :encrypt_password
 
-  def authenticate(password)
-    Password.new(password_hash) == password
+  def authenticate(password_digest)
+    Password.new(password_digest) == password_digest
   end
 
   protected
 
   def encrypt_password
-    self.password_hash = Password.create(@password)
+    self.password_digest = Password.create(@password_digest)
+    self.created_at = Date.today
+    self.updated_at = Time.now
   end
 
 end
