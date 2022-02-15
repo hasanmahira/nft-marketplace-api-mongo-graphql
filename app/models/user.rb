@@ -13,7 +13,9 @@ class User
   field :created_at, type: String
   field :updated_at, type: String
 
-  # has_secure_password
+  # for using salt
+  # https://stackoverflow.com/questions/19173175/rails-how-to-write-your-own-authentication-without-using-has-secure-password
+  # https://stackoverflow.com/questions/25438030/cannot-get-bcrypt-autentication-to-work
 
   before_save :encrypt_password
 

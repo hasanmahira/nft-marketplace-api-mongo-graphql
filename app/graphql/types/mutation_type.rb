@@ -17,5 +17,6 @@ module Types
       User.create(email: email, password_digest: password_digest, name: name, surname:surname, user_name:user_name, bdate:bdate, created_at: created_at, updated_at: updated_at)
     end
 
+    # field :register, Types::UserRegister, null: true, Mutations::Register
   end
 end
