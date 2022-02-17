@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "62095067e444013e6059081d"
+  },
+  "user_name": "mates",
+  "name": "Mahir",
+  "surname": "Ates",
+  "email": "mates@gmail.com",
+  "password_digest": "123",
+  "bdate": "24/07/1996",
+  "created_at": "now()",
+  "updated_at": "now"
+},{
+  "_id": {
+    "$oid": "620b8dafe4440152283242bf"
+  },
+  "email": "email@email",
+  "password_digest": "$2a$12$2PiMtwwnkc55PO5kveZ8s.ZI1YYFqX6g1mg7pUI0FCTXSpt0PWB.2",
+  "name": "name",
+  "surname": "surname",
+  "user_name": "user_name",
+  "bdate": "bdate",
+  "created_at": "2022-02-15",
+  "updated_at": "February 15, 2022"
+},{
+  "_id": {
+    "$oid": "620c33cce444011920bbf3b0"
+  },
+  "email": "asd@asd",
+  "password_digest": "$2a$12$oyTIJoM3bqWuq4kXur.wO.mNcmHIdB96nwp8WZDx9ujxxfnLX9g4C",
+  "name": "adsf",
+  "surname": "asdf",
+  "user_name": "asdf",
+  "bdate": "2022-02-16",
+  "created_at": "2022-02-16",
+  "updated_at": "2022-02-16 02:14:20 +0300"
+}]
