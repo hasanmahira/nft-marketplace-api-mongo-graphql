@@ -1,0 +1,71 @@
+[{
+  "_id": {
+    "$oid": "620c4d15e4440159a0c81b55"
+  },
+  "creator": "creator",
+  "name": "Github Profile",
+  "price": 1.5,
+  "description": "Github is very important for developers",
+  "category": 2,
+  "on_sale": true,
+  "is_auction": false,
+  "cid": "bafkreifdrq2tk7rc7vwzfqfqphw6df3chhtfuslx7qfltrhnaseisyxclu",
+  "created_at": "createdAt",
+  "updated_at": "updatedAt"
+},{
+  "_id": {
+    "$oid": "620cd977e44401542825abe0"
+  },
+  "creator": "current user comes from hooks or token",
+  "name": "The Lord of the Rings: The Return of the King",
+  "price": 3,
+  "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+  "category": 3,
+  "on_sale": true,
+  "is_auction": true,
+  "cid": "bafkreieuzrvlvroljplqdgwacwkfxqqavbp76lwwrduryuakjzrzmmvrpi",
+  "created_at": "1645009271583",
+  "updated_at": "1645009271583"
+},{
+  "_id": {
+    "$oid": "620d306ce44401542825abe1"
+  },
+  "creator": "current user comes from hooks or token",
+  "name": "The Lord of the Rings: The Fellowship of the Ring",
+  "price": 5,
+  "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+  "category": 3,
+  "on_sale": true,
+  "is_auction": true,
+  "cid": "bafybeifvghx2hm4ipw67cday4zk6lsnq5b4k7rvuqbqxu2j23fydnepfiu",
+  "created_at": "1645031532067",
+  "updated_at": "1645031532067"
+},{
+  "_id": {
+    "$oid": "620d3815e444013c400846e2"
+  },
+  "creator": "current user comes from hooks or token",
+  "name": "Marvel’s Spider-Man",
+  "price": 6,
+  "description": "Sony Interactive Entertainment, Insomniac Games and Marvel have teamed up to reveal an original Spider-Man adventure. This isn't your Man before or the non-medical Spider-. This is a Peter Parker in Marvel's New York who has mastered the big fight. Peter also struggles to advance his career with his chaotic life in the hands of the New Yorker's destiny.",
+  "category": 1,
+  "on_sale": true,
+  "is_auction": true,
+  "cid": "bafybeibtead7cdixjmuifcba7qdwazgs5fbnfydgdp4hlkz2jw35udcyrq",
+  "created_at": "2022-02-16",
+  "updated_at": "2022-02-16 20:44:53 +0300"
+},{
+  "_id": {
+    "$oid": "620d3838e444013c400846e3"
+  },
+  "creator": "current user comes from hooks or token",
+  "name": "Gartic Phone",
+  "price": 2,
+  "description": "Gartic Phone is muktiplayer drawing game",
+  "category": 1,
+  "on_sale": true,
+  "is_auction": true,
+  "cid": "bafybeihnljg5soozecamrqtt2d2kn4kcsommq7s3xuexxdgxl45hsqv63m",
+  "created_at": "2022-02-16",
+  "updated_at": "2022-02-16 20:45:28 +0300"
+}]

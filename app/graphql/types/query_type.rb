@@ -15,9 +15,8 @@ module Types
       end
   
       def login(email:, password:)
-        if user = User.where( email: email).first 
-          "Hello " + email
-        #  user.sessions.create.key
+        if user = User.where( email: email).first
+          email
         end
       end
 

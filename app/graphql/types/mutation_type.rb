@@ -20,16 +20,14 @@ module Types
     # field :register, Types::UserRegister, null: true, Mutations::Register
 
     # User Update PasswordDigest
-    # field :updatePassword, Boolean, null: true, description: "Update an user" do
-    #   argument :email, String, required: true
-    #   argument :password_digest, String, required: true
-    # end
+    field :update_password, Boolean, null: true, description: "Update an user" do
+      argument :email, String, required: true
+      argument :password_digest, String, required: true
+    end
 
-    # def updatePassword(email:, password_digest:)
-    #   user = User.where(email: email).first 
-    #   user.update!(password_digest)
-    #   # user&.update password_digest.to_c
-    # end
+    def update_password(email:, password_digest:)
+      user = User.where(email: email).first.update(password_digest:password_digest)
+    end
 
     # NftFile create
     field :createNft, Boolean, null: true, description: "Creates a NFT" do
