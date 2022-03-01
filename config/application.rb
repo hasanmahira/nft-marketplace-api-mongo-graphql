@@ -22,9 +22,13 @@ Bundler.require(*Rails.groups)
 module Api
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
-    # config.load_defaults 6.1
+    config.load_defaults 6.1
+
+    config.autoload_paths << "#{Rails.root}/extras"
+    config.eager_load_paths << "#{Rails.root}/extras"
+
     # config.autoloader = :classic
-    config.autoload_once_paths << "#{root}/app/controllers"
+    # config.autoload_once_paths << "#{root}/app/controllers"
 
     # config.autoload_paths << "#{root}/extras"
 
