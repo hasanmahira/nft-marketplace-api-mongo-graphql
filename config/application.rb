@@ -24,13 +24,24 @@ module Api
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
 
+    config.autoload_paths << "#{root}/extras"
     config.autoload_paths << "#{Rails.root}/extras"
     config.eager_load_paths << "#{Rails.root}/extras"
+    config.eager_load_paths << Rails.root.join("extras")
+
+    config.autoload_paths << "#{root}/controllers"
+    config.autoload_paths << "#{Rails.root}/controllers"
+    config.eager_load_paths << "#{Rails.root}/controllers"
+    config.eager_load_paths << Rails.root.join("controllers")
+
+    config.autoload_paths << "#{root}/app/controllers"
+    config.autoload_paths << "#{Rails.root}/app/controllers"
+    config.eager_load_paths << "#{Rails.root}/app/controllers"
+    config.eager_load_paths << Rails.root.join("app/controllers")
 
     # config.autoloader = :classic
     # config.autoload_once_paths << "#{root}/app/controllers"
 
-    # config.autoload_paths << "#{root}/extras"
 
     # Configuration for the application, engines, and railties goes here.
     #
