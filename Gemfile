@@ -13,7 +13,7 @@ gem 'mongoid', '~> 7.0.13'
 gem 'graphql', '1.11.6'
 # Use sqlite3 as the database for Active Record
 # group :development, :test do
-  gem 'sqlite3', '~> 1.4'
+gem 'sqlite3', '~> 1.4'
 # end  
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
