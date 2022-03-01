@@ -265,9 +265,9 @@ production:
 test:
   clients:
     default:
-      database: api_test
+      database: api_development
       hosts:
-        - localhost:27017
+        mongodb+srv://mongoadmin:8fBmjjzdWt4rlqOT@nftmp-east.ror8r.mongodb.net/api_development?retryWrites=true&w=majority
       options:
         read:
           mode: :primary
