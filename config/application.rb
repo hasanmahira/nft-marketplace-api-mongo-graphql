@@ -23,6 +23,7 @@ module Api
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
+    config.autoloader = :classic
     config.autoload_once_paths << "#{root}/app/controllers"
 
     config.autoload_paths << "#{root}/extras"
